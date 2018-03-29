@@ -6,7 +6,7 @@ var answerArray = [["2001", "1985", "1996", "2006"], ["Zelda","Luigi","Kirby","L
 var imageArray = ["<img class='center-block img-right' src='assets/images/smb.png'>", "<img class='center-block img-right' src='assets/images/link.png'>", "<img class='center-block img-right' src='assets/images/pikachu.png'>", "<img class='center-block img-right' src='assets/images/squidsisters.png'>", "<img class='center-block img-right' src='assets/images/earth.png'>", "<img class='center-block img-right' src='assets/images/beamkirby.png'>", "<img class='center-block img-right' src='assets/images/kong.png'>", "<img class='center-block img-right' src='assets/images/mario.png'>"];
 var rightAnswer = ["B. 1985", "D. Link", "A. 025", "C. Squid Sisters", "B. Earth", "D. Beam", "C. Nephew", "D. Computer Programmer"]
 var questionCounter = 0;
-var selecterAnswer;
+var selectedAnswer;
 var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
